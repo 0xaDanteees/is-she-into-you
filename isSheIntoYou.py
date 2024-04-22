@@ -83,7 +83,7 @@ if __name__ == "__main__":
     # Calcula la probabilidad posterior utilizando Bayes
     res = isSheIntoYou(priori_prob, evidences)
 
-    print("La probabilidad de que le atraigas es:", res, "%")
+    print("La probabilidad de que le atraigas es:", res)
 
     if res>0.51:
         print("Prolly le gusta tu atención y tu")
